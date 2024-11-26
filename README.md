@@ -60,6 +60,11 @@ class _CounterWidgetState extends State<CounterWidget> {
   }
 }
 ```
+Untuk menjalankan aplikasi **Ephemeral State Management**, ikuti langkah-langkah berikut:
+1. Jalankan aplikasi dengan perintah:
+  ```bash
+  flutter run
+  ```
 
 ### 2. **App State Management (Scoped Model)**
 
@@ -140,6 +145,15 @@ class CounterWidget extends StatelessWidget {
   }
 }
 ```
+Untuk menjalankan aplikasi **App State Management**, ikuti langkah-langkah berikut:
+1. Pastikan dependensi diunduh dengan menjalankan:
+   ```bash
+   flutter pub get
+   ```
+2. Jalankan aplikasi dengan perintah:
+  ```bash
+  flutter run
+  ```
 
 **Perbandingan: Ephemeral vs App State Management**
 | **Fitur**              | **Ephemeral State**                          | **App State Management**                    |
@@ -149,10 +163,3 @@ class CounterWidget extends StatelessWidget {
 | **Kegunaan**            | State widget tunggal                        | State aplikasi global                      |
 | **Skalabilitas**        | Rendah                                      | Tinggi                                      |
 | **Kemudahan Pengujian**| Dasar                                       | Lebih mudah diuji                          |
-
-Untuk menjalankan aplikasi **App State Management**, ikuti langkah-langkah berikut:
-
-1. Pastikan dependensi diunduh dengan menjalankan:
-   ```bash
-   flutter pub get
-

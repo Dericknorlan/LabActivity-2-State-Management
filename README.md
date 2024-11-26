@@ -151,9 +151,9 @@ Untuk menjalankan aplikasi **App State Management**, ikuti langkah-langkah berik
    flutter pub get
    ```
 2. Jalankan aplikasi dengan perintah:
-  ```bash
-  flutter run
-  ```
+   ```bash
+    flutter run
+   ```
 
 **Perbandingan: Ephemeral vs App State Management**
 | **Fitur**              | **Ephemeral State**                          | **App State Management**                    |

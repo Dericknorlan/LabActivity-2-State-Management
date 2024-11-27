@@ -1,4 +1,4 @@
-# Lab Activity 2 - State Management
+# Lab Activity 1 - State Management
 
 Repositori ini berisi dua proyek Flutter untuk mempelajari dan membandingkan dua pendekatan manajemen state:
 1. **Ephemeral State Management** menggunakan `StatefulWidget`.

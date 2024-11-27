@@ -6,13 +6,6 @@ Repositori ini berisi dua proyek Flutter untuk mempelajari dan membandingkan dua
 
 ---
 
-## Tujuan
-- Memahami cara kerja **Ephemeral State Management** untuk mengelola state lokal di dalam widget tertentu.
-- Mempelajari **App State Management** untuk mengelola state di seluruh aplikasi.
-- Mengetahui perbedaan, kelebihan, dan kapan menggunakan masing-masing pendekatan.
-
----
-
 ## Struktur Proyek
 Repositori ini terdiri dari dua folder utama:
 - **ephemeral_state_codelab**: Contoh manajemen state lokal menggunakan `StatefulWidget`.
